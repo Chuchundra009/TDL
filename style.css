@@ -1,0 +1,34 @@
+.div__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__list {
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.div__list-input {
+    width: 30%;
+}
+
+.div__list-btn {
+    color: white;
+    background-color: rgb(104, 139, 50);
+    border: none;
+    padding: 4px 15px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer
+}
+
+.active {
+    text-decoration: line-through rgb(75, 64, 64);
+    cursor: pointer
+}
